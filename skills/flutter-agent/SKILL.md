@@ -1,3 +1,17 @@
+---
+name: flutter-agent
+description: >
+  Use this skill for all Flutter/Dart development tasks. Enforces project-specific
+  architecture: ChangeNotifier state management, hand-written models (no codegen),
+  relative imports only, abstract service interfaces with impl/ boundary, centralized
+  widget keys, sealed-class EventBus, and GoRouter with auth via refreshListenable.
+  Operates in two modes: Feature Mode (default — screens, state, models, tests) and
+  Service Mode (explicit — implement service internals). Load REFERENCE.md alongside
+  this file when implementing a pattern for the first time.
+references:
+  - REFERENCE.md
+---
+
 # Flutter Agent Rules
 
 Every task begins with a mode declaration. Follow only the rules permitted by your current mode. For full code examples of any rule, see `REFERENCE.md`.
